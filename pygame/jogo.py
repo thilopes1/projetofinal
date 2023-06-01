@@ -33,19 +33,19 @@ def game(window):
 
     assets = {
         'notas' : {
-            'verde' : pygame.image.load('assets/notas/verde.png').convert_alpha(),
-            'vermelho' : pygame.image.load('assets/notas/vermelho.png').convert_alpha(),
-            'amarelo' : pygame.image.load('assets/notas/amarelo.png').convert_alpha(),
-            'azul' : pygame.image.load('assets/notas/azul.png').convert_alpha(),
-            'laranja' : pygame.image.load('assets/notas/laranja.png').convert_alpha()
+            'verde' : pygame.image.load('pygame/assets/notas/verde.png').convert_alpha(),
+            'vermelho' : pygame.image.load('pygame/assets/notas/vermelho.png').convert_alpha(),
+            'amarelo' : pygame.image.load('pygame/assets/notas/amarelo.png').convert_alpha(),
+            'azul' : pygame.image.load('pygame/assets/notas/azul.png').convert_alpha(),
+            'laranja' : pygame.image.load('pygame/assets/notas/laranja.png').convert_alpha()
         },
         'lifebar' : {
-            '5' : pygame.image.load('assets/vidas/vida.png').convert_alpha(),
-            '4' : pygame.image.load('assets/vidas/vida1.png').convert_alpha(),
-            '3' : pygame.image.load('assets/vidas/vida2.png').convert_alpha(),
-            '2' : pygame.image.load('assets/vidas/vida3.png').convert_alpha(),
-            '1' : pygame.image.load('assets/vidas/vida4.png').convert_alpha(),
-            '0' : pygame.image.load('assets/vidas/vida5.png').convert_alpha()
+            '5' : pygame.image.load('pygame/assets/vidas/vida.png').convert_alpha(),
+            '4' : pygame.image.load('pygame/assets/vidas/vida1.png').convert_alpha(),
+            '3' : pygame.image.load('pygame/assets/vidas/vida2.png').convert_alpha(),
+            '2' : pygame.image.load('pygame/assets/vidas/vida3.png').convert_alpha(),
+            '1' : pygame.image.load('pygame/assets/vidas/vida4.png').convert_alpha(),
+            '0' : pygame.image.load('pygame/assets/vidas/vida5.png').convert_alpha()
         }
     }
 
@@ -69,7 +69,7 @@ def game(window):
     state = GAME
     while state == GAME:
         
-        cenario = pygame.image.load('imagens/fundo.jpg')
+        cenario = pygame.image.load('pygame/imagens/fundo.jpg')
         lifebar = assets['lifebar'][str(vida)]
 
         if inicio == False: 

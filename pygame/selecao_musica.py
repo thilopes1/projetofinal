@@ -2,7 +2,7 @@ from tkinter import RIGHT
 import pygame, sys
 from termos import *
 
-bgmusica = pygame.image.load('imagens/musicas.jpeg')
+bgmusica = pygame.image.load('pygame/imagens/musicas.jpeg')
 
 
 def cardapio(janela):
@@ -37,15 +37,15 @@ def cardapio(janela):
 
         if m1.collidepoint((mx,my)):
             if click:
-                musica_escolhida = 'assets/musicas/anotherlove.mp3'
+                musica_escolhida = 'pygame/assets/musicas/anotherlove.mp3'
                 state = GAME
         if m2.collidepoint((mx,my)):
             if click:
-                musica_escolhida = 'assets/musicas/innerbloom.mp3'
+                musica_escolhida = 'pygame/assets/musicas/innerbloom.mp3'
                 state = GAME
         if m3.collidepoint((mx,my)):
             if click:
-                musica_escolhida = 'assets/musicas/eyeofthetiger.mp3'
+                musica_escolhida = 'pygame/assets/musicas/eyeofthetiger.mp3'
                 state = GAME
 
         pygame.display.flip()

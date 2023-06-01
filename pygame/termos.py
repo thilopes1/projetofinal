@@ -30,5 +30,5 @@ linha_d_f = (2*terco, height)
 y_teclas = int(height * 15/17)
 
 
-dicio = {'assets/musicas/anotherlove.mp3':198, 'assets/musicas/innerbloom.mp3':190, 'assets/musicas/eyeofthetiger.mp3':181}
+dicio = {'pygame/assets/musicas/anotherlove.mp3':198, 'pygame/assets/musicas/innerbloom.mp3':190, 'pygame/assets/musicas/eyeofthetiger.mp3':181}
 

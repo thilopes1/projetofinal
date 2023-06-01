@@ -3,7 +3,7 @@ from termos import *
 
 pygame.init()
 
-bg = pygame.image.load('imagens/vocefalhou.jpeg')
+bg = pygame.image.load('pygame/imagens/vocefalhou.jpeg')
 
 def perdeu(tela2):
     click = False

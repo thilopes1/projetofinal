@@ -3,7 +3,7 @@ from termos import *
 
 pygame.init()
 
-bg = pygame.image.load('imagens/tela_acerto.jpg')
+bg = pygame.image.load('pygame/imagens/tela_acerto.jpg')
 
 def ganhou_function(tela1, resultado):
     score =(resultado[1]['acertos']*2 - resultado[1]['erros'])

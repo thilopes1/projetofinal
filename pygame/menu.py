@@ -3,7 +3,7 @@ from termos import *
 
 pygame.init()
 
-bg = pygame.image.load('imagens/Inicial.jpeg')
+bg = pygame.image.load('pygame/imagens/Inicial.jpeg')
 
 def main_menu(tela):
     click = False
