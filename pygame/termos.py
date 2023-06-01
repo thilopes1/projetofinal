@@ -1,5 +1,5 @@
 INIT = 0
-MUSICA = 1
+MUSICA = 1 
 GAME = 2
 GANHOU = 3
 QUIT = 4
